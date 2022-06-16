@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li{
+   display: flex;
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: blue;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    transition: all 0.3s ease 0s;
+    color: red;
+}
+
+.ken {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 70vh;
+}
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 60vh;
+    width: 110vh;
+    opacity: 60%;
+    border-radius: 30px;
+}
+
+.greet {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 2px 1px black;
+    font-size: 40px;
+}
+
+.greet {
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+}
+
+.sentence {
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-size: 33px;
+    color: white;
+    position: absolute;
+    top: 47%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 1px 1px black;
+}
+
+.greet2{
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 28px;
+    transform: translateX(-50%)translateY(-50%);
+    text-shadow: 1px 1px black;
+}
+
+.learn {
+    font-family: 'Source Sans 3' sans-serif;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+}
+
+.learn{
+    background-color: rgb(255, 38, 0);
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    top: 70%;
+    left: 11%;
+}
+
+.learn:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(248, 120, 97);
+}
+
+.second {
+    background-image: url(img/videography.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.title {
+    color: rgb(42, 42, 250);
+   position: absolute;
+   font-family: 'Source Sans 3';
+   font-style: normal;
+   top: 108%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
+    font-size: 4em;
+}
+
+.bg2{
+    opacity: 60%;
+    position: absolute;
+    top: 135%;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 30px;
+    height: 40vh;
+    width: 170vh;
+
+}
+
+.statement {
+    color: white;
+    font-family: 'Source Sans 3';
+    position: absolute;
+    top: 135%;
+    left: 26%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: left;
+}
+
+.statement {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.sample {
+    font-family: 'Source Sans 3' sans-serif;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: blue;
+}
+
+.sample {
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    top: 157%;
+    left: 29%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.sample:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(4, 196, 221);
+}
+
+.third {
+    background-image: url(img/editing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.title2 {
+    color: white;
+    position: absolute;
+    top: 178%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3em;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+}
+
+.inquiries {
+    color: white;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 24px;
+}
+
+.fblogo{
+    position: absolute;
+    top: 191%;
+    left:36%;
+}
+
+.gmaillogo{
+    position: absolute;
+    top: 200%;
+    left: 32%;
+}
+
+.fbacc{
+    position: absolute;
+    top: 190%;
+    left: 39%;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    transition: all 0.3s ease 0s;
+    font-family: sans-serif;
+}
+
+.fbacc:hover {
+    transition: all 0.3s ease 0s;
+    color: blue;
+}
+
+.gmailacc{
+    position: absolute;
+    top: 199%;
+    left: 35%;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    transition: all 0.3s ease 0s;
+    font-family: sans-serif;
+}
+
+.gmailacc:hover{
+    transition: all 0.3s ease 0s;
+    color: red;
+}
+
+.statement3{
+    color: white;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 24px;
+}
+
+.apply2 {
+    font-family: 'Source Sans 3' sans-serif;
+    padding: 70px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: rgb(251, 255, 0);
+}
+
+.apply2 {
+    background-color: rgb(240, 157, 48);
+    position: absolute;
+    top: 202%;
+    left: 87%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.apply2:hover {
+    background-color: rgb(236, 140, 14);
+    transition: ease 0.1s all 0s;
+}
